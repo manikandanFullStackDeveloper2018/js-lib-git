@@ -1,5 +1,12 @@
 echo "# manikandan" >> README.MD
-git init
-git add README.MD
-git commit -m 'first commit'
+git init // one time only will use for project root folder.
+git add README.MD // Every project will need one readme file.
+git status // current status of your local branches
+git commit -m 'first commit' // stage or commit your changes
+
+git show //show the commit you’re on in the current working directory
+git remote add origin https://github.com/manikandanFullStackDeveloper2018/js-lib-git.git
+git push -u origin master //If you were pushing changes from master locally to master on GitHub, you could just issue the command 'git push'
+
+
 
