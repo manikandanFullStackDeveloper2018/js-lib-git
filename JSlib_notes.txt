@@ -1,0 +1,5 @@
+echo "# manikandan" >> README.MD
+git init
+git add README.MD
+git commit -m 'first commit'
+
